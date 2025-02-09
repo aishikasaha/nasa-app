@@ -1,0 +1,35 @@
+/* src/components/Home.css */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+
+.begin-button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #00ffcc, #00b3b3);
+    border: none;
+    border-radius: 10px;
+    color: #0f2027;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    transition: all 0.3s ease;
+}
+
+.begin-button:hover {
+    box-shadow: 0 0 20px #00ffcc, 0 0 40px #00ffcc;
+}
